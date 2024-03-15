@@ -4,7 +4,7 @@ import 'package:module5_livetest/module5_livetest.dart' as module5_livetest;
 
 void displayFruitDetails(List<Map<String, dynamic>> fruits) {
 
-  print("Original Fruit Details before Discount:");
+
 
   for (var fruit in fruits) {
     print("Name: ${fruit['name']}, Color: ${fruit['color']}, Price: \$${fruit['price'].toStringAsFixed(2)}");
@@ -28,7 +28,7 @@ void main() {
     {'name': 'Grapes', 'color': 'Purple', 'price': 3.0}
   ];
 
-
+  print("Original Fruit Details before Discount:");
   displayFruitDetails(fruits);
 
 
